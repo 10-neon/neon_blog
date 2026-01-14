@@ -13,7 +13,8 @@ import Font from 'vite-plugin-font';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://10-neon.github.io',
+  base: '/neon_blog',
   markdown: {
     remarkPlugins: [remarkMath, remarkMermaidToHtml],
     rehypePlugins: [rehypeKatex, rehypeAddImageClasses],

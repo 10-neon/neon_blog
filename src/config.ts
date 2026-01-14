@@ -1,10 +1,10 @@
 export default {
   site: {
-    title: "My Blog",
-    subtitle: "My Blog Subtitle",
-    description: "D-Sketon's blog",
-    keywords: "D-Sketon, blog, astro, theme",
-    author: "D-Sketon",
+    title: "dyldw",
+    subtitle: "睡前100个小问题",
+    description: "谜题 & 代码 的 blog",
+    keywords: "dyldw, blog, astro, theme",
+    author: "dyldw",
     language: "zh-CN",
   },
 
@@ -57,11 +57,8 @@ export default {
   },
 
   social: {
-    // email: mailto:xxx@gmail.com
-    github: "https://github.com/yourname",
-    google: "https://plus.google.com/yourname",
-    twitter: "https://twitter.com/yourname",
-    facebook: "https://www.facebook.com/yourname",
+    email: "mailto:dyl20001223@163.com",
+    github: "https://github.com/10-neon",
     // instagram: https://www.instagram.com/yourname
     // linkedin: https://www.linkedin.com/in/yourname
     // pinterest: https://www.pinterest.com/yourname
@@ -70,7 +67,7 @@ export default {
     // flickr: https://www.flickr.com/photos/yourname
     // dribbble: https://dribbble.com/yourname
     // behance: https://www.behance.net/yourname
-    // bilibili: https://space.bilibili.com/yourname
+    bilibili: "https://space.bilibili.com/dyldw",
     // weibo: https://weibo.com/yourname
     // zhihu: https://www.zhihu.com/people/yourname
     // reddit: https://www.reddit.com/user/yourname
@@ -122,12 +119,12 @@ export default {
 
   // https://github.com/gitalk/gitalk/blob/master/readme-cn.md
   gitalk: {
-    enable: false,
-    clientID: "",
-    clientSecret: "",
-    repo: "",
-    owner: "",
-    admin: [],
+    enable: true,
+    clientID: "Ov23liOQqAC2BcksmLTO",
+    clientSecret: "94b4ce1732f150c93ba640f2f9f8f3d2ce8340f3",
+    repo: "neon_blog",
+    owner: "10-neon",
+    admin: ["10-neon"],
   },
 
   // https://giscus.app/zh-CN
@@ -167,12 +164,12 @@ export default {
   },
 
   friend: [
-    {
-      name: "D-Sketon",
-      url: "https://d-sketon.github.io/",
-      desc: "Main Site with hexo-theme-reimu",
-      avatar: "https://d-sketon.github.io/avatar/avatar.webp",
-    },
+    // {
+    //   name: "D-Sketon",
+    //   url: "https://d-sketon.github.io/",
+    //   desc: "Main Site with hexo-theme-reimu",
+    //   avatar: "https://d-sketon.github.io/avatar/avatar.webp",
+    // },
   ],
 
   copyright: {

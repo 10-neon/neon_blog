@@ -119,7 +119,7 @@ export default {
 
   // https://github.com/gitalk/gitalk/blob/master/readme-cn.md
   gitalk: {
-    enable: true,
+    enable: false,
     clientID: "Ov23liOQqAC2BcksmLTO",
     clientSecret: "94b4ce1732f150c93ba640f2f9f8f3d2ce8340f3",
     repo: "neon_blog",
@@ -143,8 +143,8 @@ export default {
 
   // https://utteranc.es
   utterances: {
-    enable: false,
-    repo: "owner/repo", // Change this to "Your GitHub Username/The Repository Name" used for storing blog comments
+    enable: true,
+    repo: "10-neon/neon_blog", // Change this to "Your GitHub Username/The Repository Name" used for storing blog comments
     issue_term: "title",
     theme: "auto", // auto means to automatically adapt to dark and light themes, you can also use specific themes like github-light, github-dark, preferred-color-scheme, etc.
   },
